@@ -1,0 +1,16 @@
+{% extends "base.html" %} {% block title %}Init data{% endblock %} {% block content %}
+<form method="POST">
+    <h3 align="center">Init Data</h3>
+    <div class="form-group">
+        <label for="namaAdmin">Nama Admin</label>
+        <input type="text" class="form-control" id="namaAdmin" name="namaAdmin" placeholder="Masukkan nama">
+    </div>
+    <div class="form-group">
+        <label for="perusahaan">Perusahaan</label>
+        <input type="text" class="form-control" id="perusahaan" name="perusahaan" placeholder="Masukkan nama perusahaan">
+    </div>
+    <br>
+    <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+
+{% endblock%}

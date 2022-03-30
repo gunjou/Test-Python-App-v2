@@ -1,0 +1,18 @@
+{% extends "base.html" %} {% block title %}Profile{% endblock %} {% block content %}
+<form method="GET">
+    <h3 align="center">Profile</h3>
+    <table class="table">
+        <tr>
+          <th>Email</th>
+          <th>Password</th>
+          <th>Profile</th>
+        </tr>
+        <tr>
+          <td>{{ email }}</td>
+          <td>{{ password }}</td>
+          <td>{{ profile }}</td>
+        </tr>
+      </table>
+</form>
+
+{% endblock%}
